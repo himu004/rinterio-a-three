@@ -15,8 +15,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="bg-[#ebfadb6d]">
-        <nav class="container mx-auto py-10 flex justify-between items-center">
+    <header class="bg-[#e8f1df57]">
+        <nav class="container md:mx-auto mx-3 py-10 flex justify-between items-center">
             <!-- LOGO -->
              <div class="flex items-center gap-5">
                 <div class="bg-[#ABEF5F] p-2 rounded-full">
@@ -26,7 +26,7 @@
              </div>
              <!-- MENU -->
               <div>
-                <ul class="flex gap-6 text-gray-400">
+                <ul class="md:flex gap-5 text-gray-400 hidden">
                     <li class="hover:cursor-pointer hover:text-black p-1">Home</li>
                     <li class="hover:cursor-pointer hover:text-black p-1">Services</li>
                     <li class="hover:cursor-pointer hover:text-black p-1">Portfolio</li>
@@ -35,7 +35,7 @@
                 </ul>
               </div>
               <!-- Button And Icons -->
-               <div class="flex items-center gap-4">
+               <div class="md:flex items-center gap-4 hidden">
                 <i class="ri-search-line text-xl bg-white p-2 rounded-full"></i>
                 <i class="ri-shopping-cart-2-line text-xl bg-white p-2 rounded-full"></i>
                 <button class="flex justify-center items-center gap-3 bg-[#ABEF5F] py-2 px-5 rounded-full font-bold">
@@ -45,6 +45,10 @@
                     </div> 
                 </button>
                </div>
+               <div class="mx-3 p-3 md:hidden bg-white rounded-full border border-gray-200">
+                <i class="ri-menu-line p-1 text-3xl text-gray-500"></i>
+               </div>
+               
         </nav>
         <!-- Hero -->
          <div class="container mx-auto py-10">
