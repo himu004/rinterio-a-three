@@ -16,63 +16,64 @@
 </head>
 <body>
     <header class="bg-[#e8f1df57]">
-        <nav class="container md:mx-auto mx-3 py-10 flex justify-between items-center">
+        <nav class="container mx-auto py-10 flex justify-between items-center">
             <!-- LOGO -->
-            <div class="navbar py-5">
-                
-                <div class="navbar-start">
-                    <div class="flex items-center gap-5">
-                        <div class="bg-[#ABEF5F] p-2 rounded-full">
-                            <img src="/assets/arrow-black.png" alt="">   
-                        </div>             
-                        <h1 class="text-3xl font-bold">Rinterio</h1>
-                     </div>
-                </div>
-
-                <div class="navbar-center hidden lg:flex items-center">
-                  <ul class="menu menu-horizontal px-1 text-lg">
-                    <li class="hover:text-red-500 duration-200 ease-in-out"><a>Home</a></li>
-                    <li class="hover:text-red-500 duration-200 ease-in-out"><a>Services</a></li>
-                    <li class="hover:text-red-500 duration-200 ease-in-out"><a>Portfolio</a></li>
-                    <li class="hover:text-red-500 duration-200 ease-in-out"><a>Blogs</a></li>
-                    <li class="hover:text-red-500 duration-200 ease-in-out"><a>Contact Us</a></li>
-                  </ul>
-                </div>
-                <div class="navbar-end">
-                    <div class="md:flex items-center gap-4 hidden">
-                        <i class="ri-search-line text-xl bg-white p-2 rounded-full"></i>
-                        <i class="ri-shopping-cart-2-line text-xl bg-white p-2 rounded-full"></i>
-                        <button class="flex justify-center items-center gap-3 bg-[#ABEF5F] py-2 px-5 rounded-full font-bold">
-                            Book Consultant
-                            <div class="bg-black p-2 rounded-full">
-                                <img src="/assets/arrow-white.png" alt="">   
-                            </div> 
-                        </button>
-                       </div>
-                </div>
-              </div>
-
-               <!-- Menu Icon = Dropdown -->
-               <div class="dropdown">
-                <div tabindex="0" role="button" class="mx-5 p-3 bg-white rounded-full border border-gray-200 lg:hidden">
-                    <i class="ri-menu-line p-1 text-3xl text-gray-500"></i>
-                   </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 p-5 shadow">
-                  <li class="hover:text-red-500 duration-200 ease-in-out"><a>Home</a></li>
-                  <li class="hover:text-red-500 duration-200 ease-in-out"><a>Services</a></li>
-                  <li class="hover:text-red-500 duration-200 ease-in-out"><a>Portfolio</a></li>
-                  <li class="hover:text-red-500 duration-200 ease-in-out"><a>Blogs</a></li>
-                  <li class="hover:text-red-500 duration-200 ease-in-out"><a>Contact Us</a></li>
+             <div class="flex items-center gap-3 mx-2">
+                <div class="bg-[#ABEF5F] p-2 rounded-full">
+                    <img src="/assets/arrow-black.png" alt="">   
+                </div>             
+                <h1 class="text-3xl font-bold">Rinterio</h1>
+             </div>
+             <!-- MENU -->
+              <div>
+                <ul class="md:flex gap-6 text-gray-400 hidden">
+                    <li class="hover:cursor-pointer hover:text-black p-1">Home</li>
+                    <li class="hover:cursor-pointer hover:text-black p-1">Services</li>
+                    <li class="hover:cursor-pointer hover:text-black p-1">Portfolio</li>
+                    <li class="hover:cursor-pointer hover:text-black p-1">Blogs</li>
+                    <li class="hover:cursor-pointer hover:text-black p-1">Contact Us</li>
                 </ul>
               </div>
+              <!-- Button And Icons -->
+               <div class="md:flex items-center gap-4 hidden">
+                <i class="ri-search-line text-xl bg-white py-2 px-3 border border-gray-200 rounded-full"></i>
+                <i class="ri-shopping-cart-2-line text-xl bg-white py-2 px-3 border border-gray-200 rounded-full"></i>
+                <button class="flex justify-center items-center gap-3 bg-[#ABEF5F] py-2 px-5 rounded-full font-bold">
+                    Book Consultant
+                    <div class="bg-black p-2 rounded-full">
+                        <img src="/assets/arrow-white.png" alt="">   
+                    </div> 
+                </button>
+               </div>
               
-               
+               <!-- Menu Icon for Small Device -->
+              
+                    <div  class="p-3 bg-white rounded-full mr-3 border border-gray-200 md:hidden">
+                        <i class="ri-menu-line p-1 text-3xl text-gray-500"></i>
+                    </div>
+                    
+               </div>
+
         </nav>
+
         <!-- Hero -->
-         <div class="container mx-auto py-10">
-            Hero Section
+         <div class="pb-10">
+            <div class="flex justify-center mb-3">
+               <img src="/assets/banner.png" alt="">
+            </div>
+            <div class="text-center md:w-1/2 md:mx-auto mx-3 space-y-5 pt-5 flex justify-center flex-col">
+                <h1 class="md:text-5xl text-3xl font-extrabold">A barn house of this design has a striking appearance</h1>
+                <p class="text-gray-600 mx-3">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <div class="mx-auto">
+                    <button class="flex justify-center items-center gap-3 bg-[#b2fa6181] border border-[#ABEF5F] py-2 px-5 rounded-full font-bold">
+                        View Details
+                        <div class="bg-[#ABEF5F] p-2 rounded-full">
+                            <img src="/assets/arrow-black.png" alt="">   
+                        </div> 
+                    </button>
+                </div>
+            </div>
+                
          </div>
     </header>
     <main>
