@@ -15,23 +15,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="bg-[#e8f1df57]">
+    <header class="bg-[ bg-gradient-to-t from-#e8f1df57]">
         <nav class="container mx-auto py-10 flex justify-between items-center">
             <!-- LOGO -->
              <div class="flex items-center gap-3 mx-2">
                 <div class="bg-[#ABEF5F] p-2 rounded-full">
-                    <img src="/assets/arrow-black.png" alt="">   
+                    <img src="./assets/arrow-black.png" alt="">   
                 </div>             
                 <h1 class="text-3xl font-bold">Rinterio</h1>
              </div>
              <!-- MENU -->
               <div>
                 <ul class="md:flex gap-6 text-gray-400 hidden">
-                    <li class="hover:cursor-pointer hover:text-black p-1">Home</li>
-                    <li class="hover:cursor-pointer hover:text-black p-1">Services</li>
-                    <li class="hover:cursor-pointer hover:text-black p-1">Portfolio</li>
-                    <li class="hover:cursor-pointer hover:text-black p-1">Blogs</li>
-                    <li class="hover:cursor-pointer hover:text-black p-1">Contact Us</li>
+                    <li class="hover:cursor-pointer hover:text-black duration-300 ease-in-out p-1">Home</li>
+                    <li class="hover:cursor-pointer hover:text-black duration-300 ease-in-out p-1">Services</li>
+                    <li class="hover:cursor-pointer hover:text-black duration-300 ease-in-out p-1">Portfolio</li>
+                    <li class="hover:cursor-pointer hover:text-black duration-300 ease-in-out p-1">Blogs</li>
+                    <li class="hover:cursor-pointer hover:text-black duration-300 ease-in-out p-1">Contact Us</li>
                 </ul>
               </div>
               <!-- Button And Icons -->
@@ -41,7 +41,7 @@
                 <button class="flex justify-center items-center gap-3 bg-[#ABEF5F] py-2 px-5 rounded-full font-bold">
                     Book Consultant
                     <div class="bg-black p-2 rounded-full">
-                        <img src="/assets/arrow-white.png" alt="">   
+                        <img src="./assets/arrow-white.png" alt="">   
                     </div> 
                 </button>
                </div>
@@ -56,10 +56,10 @@
 
         </nav>
 
-        <!-- Hero -->
+        <!-- Hero - Banner -->
          <div class="pb-10">
             <div class="flex justify-center mb-3">
-               <img src="/assets/banner.png" alt="">
+               <img src="./assets/banner.png" alt="">
             </div>
             <div class="text-center md:w-1/2 md:mx-auto mx-3 space-y-5 pt-5 flex justify-center flex-col">
                 <h1 class="md:text-5xl text-3xl font-extrabold">A barn house of this design has a striking appearance</h1>
@@ -68,17 +68,64 @@
                     <button class="flex justify-center items-center gap-3 bg-[#b2fa6181] border border-[#ABEF5F] py-2 px-5 rounded-full font-bold">
                         View Details
                         <div class="bg-[#ABEF5F] p-2 rounded-full">
-                            <img src="/assets/arrow-black.png" alt="">   
+                            <img src="./assets/arrow-black.png" alt="">   
                         </div> 
                     </button>
                 </div>
             </div>
                 
          </div>
-    </header>
-    <main>
 
+    </header>
+
+    <main>
+        <!-- About Us Section -->
+         <section class="bg-[#e8f1df57]">
+        
+            <div class="container mx-auto min-h-screen">
+                <div>
+                    <img class="p-5 md:block hidden" src="./assets/Vector.png" alt="">
+                   <div class="text-center md:text-start">
+                    <button class="btn bg-white rounded-full md:px-5 md:ml-16 my-3">
+                        <i class="ri-arrow-right-line"></i>
+                        Get Started
+                    </button>
+                   </div>
+                </div>
+                <!-- Text Content -->
+                <div class="hero-content flex-col-reverse lg:flex-row-reverse">
+                  <img
+                    src="./assets/Rectangle.png"
+                    class="rounded-lg shadow-2xl" />
+                  <div>
+                    <h1 class="md:text-5xl text-2xl text-center md:text-start font-extrabold">We design thoughtful,<br> liveable spaces</h1>
+                    <p class="py-6 text-center md:text-start text-gray-500">
+                        The barn house captivates with its blend of rustic charm and 
+                        modern sophistication, featuring weathered wood, sleek metal accents.
+                    </p>
+                    <!-- Cards -->
+                    <div class="space-y-7">
+                        <div class="bg-white flex justify-center items-center gap-5 p-5 md:mr-5 rounded-lg shadow-sm">
+                            <img src="./assets/commercial.png" alt="">
+                            <div class="space-y-2">
+                                <h3 class="text-xl font-bold">Commercial</h3>
+                                <p class="w-10/12">The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                         </div>
+                         <div class="bg-white flex justify-center items-center gap-5 p-5 md:mr-5 rounded-lg shadow-sm">
+                            <img src="./assets/residential.png" alt="">
+                            <div class="space-y-2">
+                                <h3 class="text-xl font-bold">Residential</h3>
+                                <p class="w-10/12">The house delights with its seamless fusion of traditional rustic elements and modern design.</p>
+                            </div>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+         </section>
     </main>
+
     <footer>
 
     </footer>
